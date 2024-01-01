@@ -15,13 +15,7 @@ function readLinesFromFile(filePath: string): void {
 	  // Process each line here
 	  const regex = /\d/g
 	  const numArr = line.match(regex)
-	  let numString : string = ""
-	  if(numArr.length == 1){
-		numString =  numArr[0]+""+numArr[0]
-	  }
-	  else{
-		numString =  numArr[0]+""+numArr[numArr.length-1]
-	  }
+	  let numString : string =  numArr[0]+""+numArr[numArr.length-1]
 	  total += parseInt(numString)
 
 	  console.log(line);
