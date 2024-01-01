@@ -1,0 +1,15 @@
+{
+  "name": "ts-advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "d1": "npx ts-node day-1.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "fs-extra": "^11.2.0"
+  }
+}
